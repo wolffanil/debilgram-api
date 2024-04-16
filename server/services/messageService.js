@@ -1,4 +1,4 @@
-const Message = require("../models/MessageModel");
+const Message = require("../models/messageModel");
 const Chat = require("../models/chatModel");
 const AppError = require("../utils/AppError");
 
