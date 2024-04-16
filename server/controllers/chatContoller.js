@@ -1,4 +1,4 @@
-const ChatService = require("../services/ChatService");
+const ChatService = require("../services/chatService");
 const catchAsync = require("../utils/catchAsync");
 
 class ChatController {
