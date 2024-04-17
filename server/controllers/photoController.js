@@ -24,6 +24,7 @@ exports.resizeProfilePhoto = catchAsync(async (req, res) => {
 
   await sharp(req.file.buffer)
     .toFormat("png")
+    .resize(180, 180)
     .jpeg({ quality: 90 })
     .toFile(`upload/profile/${req.file.filename}`);
 
